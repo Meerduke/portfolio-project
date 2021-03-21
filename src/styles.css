@@ -30,12 +30,6 @@ h3 {
   font-weight: 900;
 }
 
-hr {
-  width: 90%;
-  margin: 50px auto;
-  border-color: var(--secondary-color);
-}
-
 p {
   line-height: 2;
 }
