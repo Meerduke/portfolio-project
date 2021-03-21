@@ -107,12 +107,17 @@ img {
   margin: 0;
 }
 
-.about-me h1 {
-  text-align: center;
-  margin-bottom: 70px;
+.about-me {
+  margin-top: 40px;
 }
+
+.about-me h1 {
+  margin: 20px 0 10px 0;
+}
+
 .about-me h3 {
   text-align: left;
+  margin-top: 20px;
 }
 
 .about-me-content {
@@ -193,10 +198,11 @@ img {
 
   .about-me {
     text-align: center;
+    margin-top: 20px;
   }
 
   .about-me h1 {
-    margin: 40px 0 0 0;
+    margin: 40px 0 20px 0;
     padding: 0;
     font-size: 36px;
   }
