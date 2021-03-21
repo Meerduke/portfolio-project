@@ -30,6 +30,12 @@ h3 {
   font-weight: 900;
 }
 
+hr {
+  width: 90%;
+  margin: 50px auto;
+  border-color: var(--secondary-color);
+}
+
 p {
   line-height: 2;
 }
@@ -90,12 +96,12 @@ img {
   color: var(--accent-color);
 }
 
-.my-work {
+.secondary-headings {
   margin: 70px;
   text-align: center;
 }
 
-.my-work h2 {
+.secondary-headings h2 {
   font-size: 50px;
 }
 
@@ -145,11 +151,11 @@ img {
   line-height: 2;
 }
 
-.homepage-link {
+.link {
   color: var(--secondary-color);
 }
 
-.homepage-link:hover {
+.link:hover {
   color: var(--secondary-color);
 }
 
