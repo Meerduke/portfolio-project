@@ -96,6 +96,16 @@ img {
   color: var(--accent-color);
 }
 
+.tertiary-link {
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+
+.tertiary-link:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
 .secondary-headings {
   margin: 70px;
   text-align: center;
@@ -149,14 +159,6 @@ img {
   font-weight: 900;
   margin-top: 20px;
   line-height: 2;
-}
-
-.link {
-  color: var(--secondary-color);
-}
-
-.link:hover {
-  color: var(--secondary-color);
 }
 
 .mail-icon {
