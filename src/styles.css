@@ -155,24 +155,20 @@ img {
   line-height: 2;
 }
 
-.mail-icon {
-  font-size: 50px;
-}
-
-.email-address {
+.contact-detail {
   text-decoration: none;
   color: var(--secondary-color);
   transition: 150ms ease-in-out;
+  text-align: center;
 }
 
-.email-address:hover {
+.contact-detail:hover {
   text-decoration: underline;
   color: var(--secondary-color);
 }
 
-.contact-me {
-  background-color: #d3e0ea;
-  padding: 40px;
+.contact-icon {
+  font-size: 50px;
   text-align: center;
 }
 
@@ -226,9 +222,5 @@ img {
 
   .skills ul {
     text-align: center;
-  }
-
-  .contact-me {
-    margin: 0 auto;
   }
 }
