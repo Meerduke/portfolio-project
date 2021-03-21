@@ -19,49 +19,76 @@
 </head>
 
 <body>
-    <a class="homepage-link" href="/">Back to homepage</a>
-    <h1>
-        About Me
-    </h1>
-    <h3>
-        Junior Front-End Developer.
-    </h3>
-    <h3>
-        Born in Milan, raised in London, based in Berlin.
-    </h3>
-    <div class="about-paragraphs">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-            alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-            blanditiis harum.
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-            alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-            blanditiis harum.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-            alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-            blanditiis harum.
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-            aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-            alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-            blanditiis harum.
-        </p>
+    <div class="container about-me">
+        <a class="homepage-link" href="/">Back to homepage</a>
+        <h1>
+            About Me
+        </h1>
+        <div class="row about-me-content mt-5">
+            <div class="col-lg-6 about-paragraph">
+                <h2>Becca Murdoch</h2>
+                <h3>
+                    Junior Front-End Developer.
+                </h3>
+                <h3 class="mb-4">
+                    Born in Milan, raised in London, based in Berlin.
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+                    aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+                    alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+                    blanditiis harum. --- this will be business
+                    <br />
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+                    aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+                    alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+                    blanditiis harum. --- this will be personal
+                </p>
+            </div>
+            <div class="col-lg-6 about-portrait">
+                <img src="/images/portrait.png" alt="portrait of Becca Murdoch" class="img-fluid ms-4">
+            </div>
+        </div>
+        <div class="row my-skills">
+            <div class="col-lg-6">
+                <img src="/images/clarence.png" alt="dog and laptop" class="img-fluid">
+            </div>
+            <div class="col-lg-6 skills">
+                <h2>
+                    My Skills
+                </h2>
+                <ul>
+                    <li>
+                        html
+                    </li>
+                    <li>
+                        css
+                    </li>
+                    <li>
+                        hosting
+                    </li>
+                    <li>
+                        continuos deplyment with git
+                    </li>
+                    <li>
+                        api integration
+                    </li>
+                    <li>
+                        bootstrap
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div id="contact">
+
+    <div id="contact" class="mt-5 contact-me">
         <h2>
-            Contact Me
+                Contact Me
         </h2>
         <a class="email-address" href="mailto:r.c.l.murdoch@gmail.com">r.c.l.murdoch@gmail.com</a>
         <div class="mail-icon">
-            ✉️
+                ✉️
         </div>
     </div>
 </body>
