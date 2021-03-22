@@ -42,6 +42,15 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+ul {
+  list-style: none;
+  font-size: 20px;
+  color: var(--secondary-color);
+  font-weight: 900;
+  margin-top: 20px;
+  line-height: 2;
+}
+
 .hero {
   background-color: #d3e0ea;
   padding: 60px;
@@ -110,49 +119,11 @@ img {
 }
 
 .project-component {
-  padding: 40px;
+  padding: 50px;
 }
 
 .btn-launch-app {
   margin: 0;
-}
-
-.about-me {
-  margin-top: 40px;
-}
-
-.about-me h1 {
-  margin: 20px 0 10px 0;
-}
-
-.about-me h3 {
-  text-align: left;
-  margin-top: 20px;
-}
-
-.about-me-content {
-  padding: 40px;
-}
-
-.about-paragraph {
-  line-height: 2;
-}
-
-.my-skills {
-  margin: 50px 0 90px 0;
-}
-
-.skills {
-  padding: 40px;
-}
-
-.skills ul {
-  list-style: none;
-  font-size: 20px;
-  color: var(--secondary-color);
-  font-weight: 900;
-  margin-top: 20px;
-  line-height: 2;
 }
 
 .contact-detail {
@@ -170,6 +141,10 @@ img {
 .contact-icon {
   font-size: 50px;
   text-align: center;
+}
+
+#portrait {
+  box-shadow: none;
 }
 
 #contact h2 {
