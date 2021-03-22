@@ -28,7 +28,6 @@ h3 {
   color: var(--secondary-color);
   font-size: 20px;
   text-align: center;
-  font-weight: 900;
 }
 
 p {
@@ -50,6 +49,43 @@ ul {
   font-weight: 900;
   margin-top: 20px;
   line-height: 2;
+  text-align: center;
+  padding: 0;
+}
+
+nav {
+  padding: 10px;
+  margin: 0;
+  font-family: var(--heading-font-family);
+}
+
+nav h3 {
+  font-size: 15px;
+  margin: 0 0 0 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 30px;
+  margin: 20px;
+}
+
+nav a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
 }
 
 .hero {
@@ -74,7 +110,7 @@ ul {
   font-size: 15px;
   box-shadow: var(--box-shadow);
   text-decoration: none;
-  transition: 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .primary-link:hover {
@@ -92,7 +128,7 @@ ul {
   font-size: 15px;
   box-shadow: var(--box-shadow);
   text-decoration: none;
-  transition: 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .secondary-link:hover {
@@ -127,7 +163,7 @@ ul {
   margin: 0;
 }
 
-#portrait {
+.portrait {
   box-shadow: none;
 }
 
@@ -139,10 +175,6 @@ ul {
     padding: 0;
   }
 
-  .my-work h2 {
-    font-size: 32px;
-    margin: 0 auto;
-  }
   .hero {
     margin-top: 0;
   }
@@ -154,7 +186,10 @@ ul {
   }
 
   ul {
-    text-align: center;
-    margin: 0 auto;
+    padding: 0;
+  }
+
+  nav a {
+    font-size: 10px;
   }
 }
