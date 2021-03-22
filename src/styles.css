@@ -173,8 +173,16 @@ nav li.active a {
     padding: 0;
   }
 
+  h3 {
+    font-size: 15px;
+  }
+
   .secondary-headings h2 {
     font-size: 36px;
+  }
+
+  .tertiary-link {
+    font-size: 24px;
   }
 
   .hero {
