@@ -147,10 +147,22 @@ footer a:hover {
 .tertiary-link {
   color: var(--secondary-color);
   font-size: 40px;
+  transition: all 150ms ease-in-out;
 }
 
 .tertiary-link:hover {
   color: var(--primary-color);
+}
+
+.certificate-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.certificate-link:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
 .secondary-headings {
