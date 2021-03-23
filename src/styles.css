@@ -1,7 +1,7 @@
 :root {
   --primary-color: #276678;
   --secondary-color: #1687a7;
-  --heading-font-family: "Playfair Display", serif;
+  --heading-font-family: "Karla", sans-serif;
   --default-font-family: "Open Sans", sans-serif;
   --accent-color: #d3e0ea;
   --gradient: linear-gradient(to top, #fff 0%, #d3e0ea 100%) fixed;
@@ -20,7 +20,7 @@ h2 {
 
 h1 {
   font-size: 96px;
-  margin: 35px;
+  margin: 25px;
   text-align: center;
 }
 
