@@ -4,7 +4,6 @@
   --heading-font-family: "Karla", sans-serif;
   --default-font-family: "Open Sans", sans-serif;
   --accent-color: #d3e0ea;
-  --gradient: linear-gradient(to top, #fff 0%, #d3e0ea 100%) fixed;
   --box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -86,10 +85,11 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--primary-color);
+  text-decoration: underline;
 }
 
 footer {
-  margin: 10px auto;
+  margin: 15px auto;
   opacity: 0.5;
   text-align: center;
 }
@@ -106,11 +106,6 @@ footer a:hover {
   background-color: #d3e0ea;
   padding: 40px;
   text-align: center;
-}
-
-.navigation-links {
-  display: flex;
-  justify-content: center;
 }
 
 .primary-link {
@@ -167,8 +162,8 @@ footer a:hover {
   font-size: 50px;
 }
 
-.project-component {
-  padding: 50px;
+.content-component {
+  padding: 30px 50px;
 }
 
 .btn-launch-app {
@@ -203,7 +198,7 @@ footer a:hover {
     margin-top: 0;
   }
 
-  .project-component {
+  .content-component {
     text-align: center;
     padding-top: 0;
     margin-top: 0;
