@@ -88,6 +88,20 @@ nav li.active a {
   color: var(--primary-color);
 }
 
+footer {
+  margin: 10px auto;
+  opacity: 0.5;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 15px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 .hero {
   background-color: #d3e0ea;
   padding: 40px;
